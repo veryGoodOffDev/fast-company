@@ -24,11 +24,9 @@ const Users = () => {
 
     const renderQualities = (qualities) => {
       return  qualities.map((quality) => (
-        
             <span className={badgeClass + quality.color}>
             {quality.name}
-          </span>
-          
+          </span> 
       ))
     }
 
