@@ -133,7 +133,7 @@ const users = [
         qualities: [qualities.handsome],
         completedMeetings: 1000,
         rate: 5,
-        bookmark: true
+        bookmark: false
     },
 ]
 export function fetchAll() {
